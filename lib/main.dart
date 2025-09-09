@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:id_card_detector/ocr_screen.dart';
+import 'package:id_card_detector/open_cv_test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: OcrScreen(),
+      home: OpenCvTest(),
     );
   }
 }
